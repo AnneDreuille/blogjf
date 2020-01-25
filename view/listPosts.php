@@ -32,7 +32,7 @@
             <div class ="col-md-7 col-md-offset-1">
                 <!-- afficher l'extrait du dernier post publié -->
                 <div>
-                    <span><em class="small">Publié le <?php echo ($lastPost['postDate_fr']);?></em></span>
+                    <span class="small font-italic text-primary">Publié le <?php echo ($lastPost['postDate_fr']);?></span>
                     <h2><?php echo ($lastPost['title']);?></h2>
                     <p class="text-justify"><?php echo nl2br(substr(strip_tags($lastPost['content']),0,700));?> ...</p>
                 </div><br/>
@@ -95,7 +95,7 @@
     <!-- lien vers Espace Administrateur -->
     <div class ="row">
         <div class ="col-md-offset-8 col-md-2 col-md-offset-2 pull-right small">
-            <a href="admin/index.php"><em>Espace Administrateur</em></a>
+            <a href="admin/index.php" class="font-italic">Espace Administrateur</a>
         </div>
     </div>
 

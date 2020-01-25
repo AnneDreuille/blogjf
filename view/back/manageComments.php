@@ -27,7 +27,7 @@
                 <tr>
                     <td class="text-uppercase"><strong><?php echo $data['pseudo'];?></strong></td>
                         
-                    <td><em><?php echo $data['commentDate_fr'];?></em></td>
+                    <td><?php echo $data['commentDate_fr'];?></td>
 
                     <td><?php echo nl2br(strip_tags($data['comment']));?></td>    
 

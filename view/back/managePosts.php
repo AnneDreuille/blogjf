@@ -27,13 +27,13 @@
             ?>
                 <tr>
                     <td class="text-uppercase"><strong><?php echo $data['title'];?></strong></td>
-                    <td><em><?php echo $data['postDate_fr'];?></em></td>
+                    <td><?php echo $data['postDate_fr'];?></td>
                      
-                    <td><em><?php if (($data['postDate_fr'])==($data['updateDate_fr'])){
+                    <td><?php if (($data['postDate_fr'])==($data['updateDate_fr'])){
                         echo '-' ;
                     } else {     
                         echo $data['updateDate_fr'];
-                    }?></em></td>
+                    }?></td>
                     
                     <td><?php if ($data['published']==1){
                         echo '<span class="glyphicon glyphicon-ok btn-success"></span>';

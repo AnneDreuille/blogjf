@@ -6,6 +6,11 @@ html, body{
 	font-family:Monserrat,sans-serif;	
 	color:#333;	/*gris foncé au lieu de noir*/
 }
+
+.font-italic{
+	font-style: italic;
+}
+
 footer{
 	height:100px;
 }

@@ -15,7 +15,7 @@
 
                 <!-- afficher un chapitre entier -->
                 <div>
-                    <span><em class="small">Publié le <?php echo $post['postDate_fr'];?></em></span>
+                    <span class="small font-italic text-primary">Publié le <?php echo $post['postDate_fr'];?></span>
                     <h2><?php echo ($post['title']);?></h2>
                     <p class="text-justify"><?php echo nl2br(strip_tags($post['content']));?></p>
                 </div><br/>
@@ -52,31 +52,20 @@
             	foreach ($comments as $data) {
             	?> 
                     <dl> <!-- utilisation d'une liste de descriptions -->
-                        <dt><?php echo $data['pseudo'];?>
-                        <em class="small text-primary"> - Posté le <?php echo $data['commentDate_fr'];?></em></dt>
+                        <dt><?php echo $data['pseudo'];?></dt>
+                        <dd class="small text-primary font-italic">Posté le <?php echo $data['commentDate_fr'];?></dd>
                         <dd class="text-justify"><?php echo nl2br(strip_tags($data['comment']));?></dd>
                     </dl>
 
                     <!-- afficher le bouton pour alerter sur un commentaire inapproprié -->
-                    <form action="index.php?action=alertComment&id=<?php echo $data['id'];?>&idPost=<?php echo $data['idPost'];?>" method="post">
+                    <form class="submit" action="index.php?action=alertComment&id=<?php echo $data['id'];?>&idPost=<?php echo $data['idPost'];?>" method="post">
                      
-                        <button class="btn btn-xs btn-warning" type="submit" id="submit">
+                        <button class="btn btn-xs btn-warning" type="submit" >
                             Signaler ce commentaire comme abusif <span class="glyphicon glyphicon-thumbs-down"></span>                        
                         </button>
 
                         <!-- afficher le message "alerte bien enregistrée" -->
-                        <p class= "text-danger small"><em>
-                        <?php 
-                            switch ($data['alert']){
-                                case '1':
-                                echo "Votre alerte a bien été enregistrée !";
-                                break;
-                                case '0':
-                                echo '';
-                                break;
-                            }
-                        ?>
-                        </em></p>
+                        <p class="text-danger small font-italic"></p>
                     </form>
                 <?php
             	}  
@@ -96,7 +85,7 @@
     <!-- lien vers Espace Administrateur -->
     <div class ="row">
         <div class ="col-md-offset-8 col-md-2 col-md-offset-2 pull-right small">
-            <a href="admin/index.php"><em>Espace Administrateur</em></a>
+            <a href="admin/index.php" class="font-italic">Espace Administrateur</a>
         </div>
     </div>
 
