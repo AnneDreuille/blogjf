@@ -1,5 +1,10 @@
 <?php //index routeur sur les fonctions backController
 
+
+require_once(__DIR__.'/../app/config.php');
+
+
+
 //charger les fichiers controllers et leurs fonctions
 require_once(__DIR__.'/../controller/backController.php');
 

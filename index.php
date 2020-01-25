@@ -1,5 +1,8 @@
 <?php //index routeur sur les fonctions frontController
 
+
+require_once(__DIR__.'/app/config.php');
+
 //charger les fichiers controllers et leurs fonctions
 require_once(__DIR__.'/controller/frontController.php');
 
