@@ -10,6 +10,7 @@
         <!--lien google font police Monserrat-->
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
+        
         <!--lien bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
         <!--lien autre style-->
@@ -26,7 +27,7 @@
 
         <!-- script pour jquery -->
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-        <!-- déjà le lien Bootstrap donc le script ne sert à rien de plus ??? <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
         <script src="public/main.js"></script>
 
