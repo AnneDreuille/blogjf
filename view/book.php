@@ -3,7 +3,8 @@
 <?php ob_start(); ?>
     <div class="container-fluid">
 
-        <h1 class="text-center page-header text-primary"><strong>"Billet simple pour l'Alaska"<br/>roman de Jean Forteroche</strong></h1>
+        <h1 class="text-center page-header text-primary"><strong>"Billet simple pour l'Alaska"</strong><p><img src="public/images/plumeBleue.jpg" alt="favicon plume"/></p>
+        <p>roman de Jean Forteroche</p></h1>
 
         <!-- bouton Retour à la page d'accueil et lien vers la page listPosts-->
         <a class="btn btn-lg btn-info" href="index.php" role="button"><span class="glyphicon glyphicon-circle-arrow-left"></span> Retour à la page d'accueil</a><br/><br/>

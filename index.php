@@ -1,9 +1,9 @@
 <?php //index routeur sur les fonctions frontController
 
-
+//charger le fichier config avec définition des constantes d'accès à la db
 require_once(__DIR__.'/app/config.php');
 
-//charger les fichiers controllers et leurs fonctions
+//charger le fichier controller et ses fonctions
 require_once(__DIR__.'/controller/frontController.php');
 
 //tester le paramètre action pour savoir quelle fonction du controleur appeler
@@ -17,9 +17,6 @@ try {
 		elseif ($_GET['action']=='book') { 
 			book();
 		}	
-		elseif ($_GET['action']=='listComments') { 
-			listComments();
-		}
 		elseif($_GET['action']=='addComment') { 
 			addComment();			
 		}

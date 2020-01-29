@@ -3,7 +3,7 @@
 <?php ob_start(); ?>
     <div class="container-fluid">
 
-        <h1 class="text-center page-header text-primary"><strong>Bienvenue sur le blog de Jean Forteroche&nbsp;!</strong></h1><br/>
+        <h1 class="text-center page-header text-primary"><img src="public/images/plumeBleue.jpg" alt="favicon plume"/><strong>  Bienvenue sur le blog de Jean Forteroche&nbsp;!</strong></h1><br/>
 
         <div class ="row">
             <div class ="col-md-offset-1 col-md-2 text-center">

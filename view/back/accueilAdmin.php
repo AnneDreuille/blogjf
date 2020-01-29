@@ -3,7 +3,7 @@
 <?php ob_start(); ?>
 
     <div class ="container-fluid">
-    
+        
     	<h1>Page d'administration du blog de Jean Forteroche</h1><br/>
         
     	<!-- bouton Retour à la page d'accueil listPosts-->
@@ -11,13 +11,12 @@
 
         <!-- script pour compteur de visites -->
         <div class ="row">
-            <div class="col-md-4">
+            <div class ="col-md-4">
                 <h4 class="text-center text-primary well">Nombre de visites sur le blog =
-                <script src="http://www.abcompteur.com/cpt/?code=6/46/20043/0/1&ID=43497129327"></script>
+                <a href="https://www.compteurdevisite.com" title="compteur de visite pour blog gratuit"><img src="https://counter1.wheredoyoucomefrom.ovh/private/compteurdevisite.php?c=7eqq7klxsu4w7b9bzhlfennsmjm8z98p" border="0" title="compteur de visite pour blog gratuit" alt="compteur de visite pour blog gratuit"></a>
                 </h4>
             </div>
-        </div><br/>
-
+        </div>
 
     	<p>Que voulez-vous faire ?</p><br/>
         <!-- accès aux pages admin -->
