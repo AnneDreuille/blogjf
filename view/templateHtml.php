@@ -45,16 +45,16 @@
         <footer class="footer">
             <div class ="container text-center">
                 <button class="btn btn-default">
-                    <i class="fab fa-twitter text-primary"> Twitter</i>
+                    <div class="fab fa-twitter text-primary" aria-hidden title="Twitter"> Twitter</div>
                 </button>
                 <button class="btn btn-default">
-                    <i class="fab fa-facebook text-primary"> Facebook</i>
+                    <div class="fab fa-facebook text-primary" aria-hidden title="Facebook"> Facebook</div>
                 </button>
                 <button class="btn btn-default">
-                    <i class="far fa-envelope text-primary"> Contact</i>
+                    <div class="far fa-envelope text-primary" aria-hidden title="Contact"> Contact</div>
                 </button>
                 <button class="btn btn-default">
-                    <i class="far fa-file text-primary"> Mentions légales</i>
+                    <div class="far fa-file text-primary" aria-hidden title="Mentions légales"> Mentions légales</div>
                 </button>
             </div>
 
