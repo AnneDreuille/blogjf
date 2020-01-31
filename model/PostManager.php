@@ -61,6 +61,17 @@ class PostManager extends Manager {
 	    return $req->fetch();    
 	}
 
+	//BACK END
+
+	//insérer un nouveau post dans la table posts
+	public function addPost($title, $content, $published) {
+		$db= $this->dbConnect();
+
+		$req = $db->prepare('INSERT INTO posts (title, content, postDate, updateDate, published) VALUES (?,?,NOW(),NOW(),?)');
+
+		return $req->execute(array($title,$content,$published));
+	}
+
 	//récupérer le nombre de posts publiés et non publiés
 	public function nbAllPosts() {
 		$db= $this->dbConnect();
@@ -83,15 +94,6 @@ class PostManager extends Manager {
 		
 		$req->execute();
 		return $req->fetchAll();
-	}
-
-	//insérer un nouveau post dans la table posts
-	public function addPost($title, $content, $published) {
-		$db= $this->dbConnect();
-
-		$req = $db->prepare('INSERT INTO posts (title, content, postDate, updateDate, published) VALUES (?,?,NOW(),NOW(),?)');
-
-		return $req->execute(array($title,$content,$published));
 	}
 
 	//mettre à jour un post de la table posts en fonction de son id
