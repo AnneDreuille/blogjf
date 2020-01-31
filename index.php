@@ -11,15 +11,18 @@ try {
 
 	if (isset($_GET['action'])) {
 
-		if ($_GET['action']=='post') { 
-			post();
-		}
-		elseif ($_GET['action']=='book') { 
+		if ($_GET['action']=='book') { 
 			book();
 		}	
+
+		elseif ($_GET['action']=='post') { 
+			post();
+		}
+		
 		elseif($_GET['action']=='addComment') { 
 			addComment();			
 		}
+		
 		elseif($_GET['action']=='alertComment') { 
 			alertComment();
 		}

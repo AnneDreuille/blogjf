@@ -7,6 +7,9 @@
 
         <title><?php echo $title; ?></title>
         
+        <!-- meta description pour le SEO : améliorer la visibilité du site -->
+        <meta name="description" content="<?php echo $metaDescription; ?>" />
+        
         <!--lien google font police Monserrat-->
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 

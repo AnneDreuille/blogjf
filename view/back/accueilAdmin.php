@@ -1,4 +1,5 @@
 <?php $title ='Administration du Blog de Jean Forteroche'; ?>
+<?php $metaDescription="Accueil Espace Administrateur"; ?>
 
 <?php ob_start(); ?>
 

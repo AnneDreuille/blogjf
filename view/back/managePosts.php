@@ -1,4 +1,5 @@
 <?php $title ='Gérer les chapitres'; ?>
+<?php $metaDescription="Administration - Gérer les chapitres"; ?>
 
 <?php ob_start(); ?>
 
@@ -55,12 +56,12 @@
             $previous=$currentPage-1;
 
             if ($currentPage >1){
-                echo '<a class="glyphicon glyphicon-backward" href="index.php?action=managePosts&p='.$previous.'"> </a> ';
+                echo '<a class="glyphicon glyphicon-backward" href="index.php?action=managePosts&p='.$previous.'" title="bouton arrière"></a>';
             } 
-            echo $currentPage .' sur ' .$nbPages.' ';
+            echo ' '.$currentPage .' sur ' .$nbPages.' ';
 
             if ($currentPage<$nbPages){
-                echo '<a class="glyphicon glyphicon-forward" href="index.php?action=managePosts&p='.$next.'"> </a>';
+                echo '<a class="glyphicon glyphicon-forward" href="index.php?action=managePosts&p='.$next.'" title="bouton avant"></a>';
             }
             ?>
         </h4></div>

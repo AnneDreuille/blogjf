@@ -1,4 +1,5 @@
 <?php $title ='Billet simple pour l\'Alaska'; ?>
+<?php $metaDescription="Lire le nouveau roman de Jean Forteroche en cours d'écriture : Billet simple pour l'Alaska."; ?>
 
 <?php ob_start(); ?>
     <div class="container-fluid">
@@ -26,12 +27,12 @@
             $previous=$currentPage-1;
             
             if ($currentPage >1){
-                echo '<a class="glyphicon glyphicon-backward" href="index.php?action=book&p='.$previous.'"> </a> ';
+                echo '<a class="glyphicon glyphicon-backward" href="index.php?action=book&p='.$previous.'" title="bouton arrière"></a>';
             } 
-            echo $currentPage .' sur ' .$nbPosts.' ';
+            echo ' '.$currentPage .' sur ' .$nbPosts.' ';
 
             if ($currentPage<$nbPosts){
-                echo '<a class="glyphicon glyphicon-forward" href="index.php?action=book&p='.$next.'"> </a>';
+                echo '<a class="glyphicon glyphicon-forward" href="index.php?action=book&p='.$next.'" title="bouton avant"></a>';
             }
             ?>
         </div>  

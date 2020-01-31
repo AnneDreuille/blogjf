@@ -1,4 +1,5 @@
 <?php $title ='Gérer les commentaires'; ?>
+<?php $metaDescription="Administration - Gérer les commentaires"; ?>
 
 <?php ob_start(); ?>
 

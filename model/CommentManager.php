@@ -13,6 +13,15 @@ class CommentManager extends Manager {
 		return $req->execute(array($idPost,$pseudo,$comment,0));
 	}
 
+	//ajouter une alerte sur un commentaire inapproprié en fonction de son id
+	public function alertComment($id) {
+		$db= $this->dbConnect();
+
+		$req = $db->prepare('UPDATE comments SET alert=1 WHERE id=?');
+
+		return $req->execute(array($id));
+	}
+
 	//récupérer les commentaires associés à un post via son id
 	public function listComments($idPost) {
 		$db= $this->dbConnect();
@@ -32,15 +41,6 @@ class CommentManager extends Manager {
 	    $req->execute(array($id));
 	    return $req->fetch();
 	}	
-
-	//ajouter une alerte sur un commentaire inapproprié en fonction de son id
-	public function alertComment($id) {
-		$db= $this->dbConnect();
-
-		$req = $db->prepare('UPDATE comments SET alert=1 WHERE id=?');
-
-		return $req->execute(array($id));
-	}
 
 	//récupérer les commentaires avec une alerte
 	public function listAlertComments() {

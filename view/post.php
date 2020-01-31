@@ -1,6 +1,8 @@
 <?php $title ='Billet simple pour l\'Alaska'; ?>
+<?php $metaDescription="Lire un chapitre du nouveau roman de Jean Forteroche : Billet simple pour l'Alaska. Vous pouvez donner votre avis !"; ?>
 
 <?php ob_start(); ?>
+
     <div class="container-fluid">
 
         <h1 class="text-center page-header text-primary"><strong>"Billet simple pour l'Alaska"</strong><p><img src="public/images/plumeBleue.jpg" alt="favicon plume"/></p>

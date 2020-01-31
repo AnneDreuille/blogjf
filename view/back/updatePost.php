@@ -1,4 +1,5 @@
 <?php $title ='Modifier ou supprimer un chapitre'; ?>
+<?php $metaDescription="Administration - Modifier un chapitre"; ?>
 
 <?php ob_start(); ?>
 

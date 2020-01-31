@@ -9,28 +9,6 @@ function accueilAdmin(){
 	require(__DIR__.'/../view/back/accueilAdmin.php');
 }
 
-//ajouter un post
-function addPost() { 
-	// vérifier que le formulaire a bien reçu les paramètres
-	if (!empty($_POST['title']) && !empty($_POST['content'])) {
-
-		$published=0;
-
-		if (isset($_POST['published'])){
-			$published=1;
-		}
-
-		//créer l'objet
-		$postManager= new PostManager();
-
-		//appeler la fonction
-		$affectedLines= $postManager->addPost(htmlspecialchars($_POST['title']), nl2br($_POST['content']), $published);
-	}
-	
-	//charger le fichier en vue de l'affichage dans la page html 
-	require(__DIR__.'/../view/back/addPost.php');
-}
-
 //afficher la liste de tous les posts publiés & non publiés
 function managePosts() {
 	//créer l'objet
@@ -55,6 +33,27 @@ function managePosts() {
 
 	//charger le fichier en vue de l'affichage dans la page html 
 	require(__DIR__.'/../view/back/managePosts.php');  
+}
+
+//ajouter un post
+function addPost() { 
+	// vérifier que le formulaire a bien reçu les paramètres
+	if (!empty($_POST['title']) && !empty($_POST['content'])) {
+
+		$published=0;
+		if (isset($_POST['published'])){
+			$published=1;
+		}
+
+		//créer l'objet
+		$postManager= new PostManager();
+
+		//appeler la fonction
+		$affectedLines= $postManager->addPost(htmlspecialchars($_POST['title']), nl2br($_POST['content']), $published);
+	}
+	
+	//charger le fichier en vue de l'affichage dans la page html 
+	require(__DIR__.'/../view/back/addPost.php');
 }
 
 //modifier un post

@@ -1,4 +1,5 @@
 <?php $title ='Ecrire un nouveau chapitre'; ?>
+<?php $metaDescription="Administration - Ajouter un chapitre"; ?>
 
 <?php ob_start(); ?>
 

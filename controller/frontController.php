@@ -64,12 +64,12 @@ function post() {
 
 		//appeler les fonctions de ces objets
 		$post= $postManager->post($_GET['id']);
-			if (empty($post)){
-				throw new Exception('Pas de chapitre existant');
-			}
-			if ($post['published']==0){
-				throw new Exception('Pas de chapitre publié');
-			}
+		if (empty($post)){
+			throw new Exception('Pas de chapitre existant');
+		}
+		if ($post['published']==0){
+			throw new Exception('Pas de chapitre publié');
+		}
 
 		$comments= $commentManager->listComments($_GET['id']);
 
