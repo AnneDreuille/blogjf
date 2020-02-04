@@ -5,7 +5,7 @@
 
     <div class ="container-fluid">
     
-        <h1>Ecrire un nouveau chapitre</h1>
+        <h1 class="text-primary">Ecrire un nouveau chapitre</h1>
 
         <!-- bouton Retour à la page Administration accueilAdmin-->
         <a class="btn btn-primary" href="index.php" role="button">Retour à la page Administration</a><br/><br/>

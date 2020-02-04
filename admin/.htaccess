@@ -1,4 +1,4 @@
 AuthName "Page d'administration protégée"
 AuthType Basic
-AuthUserFile "C:\wamp64\www\blogJF\admin\.htpasswd"
+AuthUserFile "C:\wamp64\www\blogjf\admin\.htpasswd"
 Require valid-user

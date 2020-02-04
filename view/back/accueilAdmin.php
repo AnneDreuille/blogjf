@@ -5,14 +5,14 @@
 
     <div class ="container-fluid">
         
-    	<h1>Page d'administration du blog de Jean Forteroche</h1><br/>
+    	<h1 class="text-primary">Page d'administration du blog de Jean Forteroche</h1><br/>
         
     	<!-- bouton Retour à la page d'accueil listPosts-->
         <a class="btn btn-info" href="../index.php" role="button">Retour à la page d'accueil</a><br/><br/>
 
         <!-- script pour compteur de visites -->
         <div class ="row">
-            <div class ="col-md-4">
+            <div class ="col-md-5">
                 <h4 class="text-center text-primary well">Nombre de visites sur le blog =
                 <a href="https://www.compteurdevisite.com" title="compteur de visite pour blog gratuit"><img src="https://counter1.wheredoyoucomefrom.ovh/private/compteurdevisite.php?c=7eqq7klxsu4w7b9bzhlfennsmjm8z98p" border="0" title="compteur de visite pour blog gratuit" alt="compteur de visite pour blog gratuit"></a>
                 </h4>

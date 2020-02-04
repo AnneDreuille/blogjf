@@ -28,7 +28,7 @@ function listPosts() {
 	$lastPost= $postManager->lastPost();
 
 	//charger le fichier en vue de l'affichage dans la page html 
-	require(__DIR__.'/../view/listPosts.php');  
+	require(__DIR__.'/../view/front/listPosts.php');  
 }
 
 //afficher le contenu de tous les posts publiés dans la page book 
@@ -50,7 +50,7 @@ function book() {
 	$book= $postManager->book($currentPage);
 
 	//charger le fichier en vue de l'affichage dans la page html 
-	require(__DIR__.'/../view/book.php');
+	require(__DIR__.'/../view/front/book.php');
 }
 
 //afficher un seul post & ses commentaires dans la page post
@@ -74,7 +74,7 @@ function post() {
 		$comments= $commentManager->listComments($_GET['id']);
 
 		//charger le fichier en vue de l'affichage dans la page html 
-		require(__DIR__.'/../view/post.php');   
+		require(__DIR__.'/../view/front/post.php');   
 	
 	} else {
 		//envoyer une exception dans catch en cas d'erreur

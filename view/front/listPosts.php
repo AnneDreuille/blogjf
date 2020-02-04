@@ -103,4 +103,4 @@
 
 
 <?php $content=ob_get_clean();?>  <!--définit la variable $content dans templateHtml body-->
-<?php require(__DIR__.'/templateHtml.php');
+<?php require(__DIR__.'/../templateHtml.php');

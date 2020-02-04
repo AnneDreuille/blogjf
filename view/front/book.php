@@ -53,4 +53,4 @@
     </div>
 
 <?php $content= ob_get_clean();?>
-<?php require(__DIR__.'/templateHtml.php');
+<?php require(__DIR__.'/../templateHtml.php');
