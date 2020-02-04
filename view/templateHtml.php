@@ -19,12 +19,12 @@
         <!--liens pour le favicon (les 2 1ers pour version en ligne, le 3ème pour version en local)--> 
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="http://localhost/blogjf/public/images/favicon.ico" type="image/ico" />
+        <link rel="icon" href="/blogjf/public/images/favicon.ico" type="image/ico" />
 
         <!--lien bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
         <!--lien autre style-->
-        <link rel="stylesheet" href="http://localhost/blogjf/public/style.css"/>
+        <link rel="stylesheet" href="/blogjf/public/style.css"/>
 
     </head>
         
@@ -39,7 +39,7 @@
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-        <script src="http://localhost/blogjf/public/main.js"></script>
+        <script src="/blogjf/public/main.js"></script>
 
         <hr/>
         <footer class="footer">
