@@ -22,7 +22,7 @@
             </div>
 
              <div class ="col-md-3 col-md-offset-1">
-                <div class="well small">
+                <div class="well font-italic">
                     <!-- ajouter la bio de l'auteur -->
                     <img src="public/images/bio.jpg" alt="bio" class="img-thumbnail pull-right"/>
                     <p>Professeur de lettres à Montréal, Jean Forteroche est passionné par le Grand Nord et a effectué plusieurs voyages en Alaska, d'où l'idée d'écrire son premier roman "Billet simple pour l'Alaska".</p>
@@ -96,7 +96,7 @@
 
     <!-- lien vers Espace Administrateur -->
     <div class ="row">
-        <div class ="col-md-offset-8 col-md-2 col-md-offset-2 pull-right small">
+        <div class ="col-md-offset-8 col-md-2 col-md-offset-2 pull-right">
             <a href="admin/index.php" class="font-italic">Espace Administrateur</a>
         </div>
     </div>
