@@ -3,7 +3,7 @@
 
 <?php ob_start(); ?>
 
-    <div class ="container-fluid">
+    <div class ="container">
         
     	<h1 class="text-primary">Page d'administration du blog de Jean Forteroche</h1><br/>
         

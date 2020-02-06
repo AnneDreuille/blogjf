@@ -3,7 +3,7 @@
 
 <?php ob_start(); ?>
 
-    <div class ="container-fluid">
+    <div class ="container">
     
         <h1 class="text-primary">Ecrire un nouveau chapitre</h1>
 

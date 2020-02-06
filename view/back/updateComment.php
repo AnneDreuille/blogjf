@@ -3,7 +3,7 @@
 
 <?php ob_start(); ?>
 
-    <div class ="container-fluid">
+    <div class ="container">
     
         <h1 class="text-primary">Modifier les commentaires inappropriés</h1>
 
