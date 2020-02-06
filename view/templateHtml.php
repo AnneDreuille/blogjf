@@ -41,23 +41,15 @@
 
         <script src="/blogjf/public/main.js"></script>
 
-        <hr/>
+        <hr/><br/>
+
         <footer class="footer">
             <div class ="container text-center">
-                <button class="btn btn-default">
-                    <div class="fab fa-twitter text-primary" aria-hidden title="Twitter"> Twitter</div>
-                </button>
-                <button class="btn btn-default">
-                    <div class="fab fa-facebook text-primary" aria-hidden title="Facebook"> Facebook</div>
-                </button>
-                <button class="btn btn-default">
-                    <div class="far fa-envelope text-primary" aria-hidden title="Contact"> Contact</div>
-                </button>
-                <button class="btn btn-default">
-                    <div class="far fa-file text-primary" aria-hidden title="Mentions légales"> Mentions légales</div>
-                </button>
+                <div class="btn btn-primary fab fa-twitter text-primary" title="Twitter"> Twitter</div>
+                <div class="btn btn-primary fab fa-facebook text-primary" title="Facebook"> Facebook</div>
+                <div class="btn btn-primary far fa-envelope text-primary" title="Contact"> Contact</div>
+                <div class="btn btn-primary far fa-file text-primary" title="Mentions légales"> Mentions légales</div>
             </div>
-
             <br/><br/>
         </footer>
     
