@@ -15,6 +15,11 @@ footer{
 	height:100px;
 }
 
+footer div {
+	margin-right:3px;
+	margin-top: 5px;
+}
+
 @media screen and (max-width:768px){
 	html, body{
 		font-size:14px;
