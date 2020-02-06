@@ -15,7 +15,7 @@
 
             <div class ="col-md-5">
                 <!-- afficher le texte d'intro -->
-                <p class ="text-center well">Le titre de mon livre en cours d'écriture est :<br/>
+                <p class ="text-center well">Le titre de mon livre en cours d'écriture est&nbsp;:<br/>
                 "Billet simple pour l'Alaska".<br/><br/>
                 Je publie les chapitres au fur et à mesure et vous pouvez donner votre avis en laissant un commentaire !<br/><br/>
                 Ci-dessous un extrait du dernier chapitre écrit...</p>
