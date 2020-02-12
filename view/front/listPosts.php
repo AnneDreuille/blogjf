@@ -17,7 +17,7 @@
                 <!-- afficher le texte d'intro -->
                 <p class ="text-center well">Le titre de mon livre en cours d'écriture est&nbsp;:<br/>
                 "Billet simple pour l'Alaska".<br/><br/>
-                Je publie les chapitres au fur et à mesure et vous pouvez donner votre avis en laissant un commentaire !<br/><br/>
+                Je publie les chapitres au fur et à mesure et vous pouvez donner votre avis en laissant un commentaire&nbsp;!<br/><br/>
                 Ci-dessous un extrait du dernier chapitre écrit...</p>
             </div>
 
@@ -36,7 +36,7 @@
                 <div>
                     <span class="small font-italic text-primary">Publié le <?php echo ($lastPost['postDate_fr']);?></span>
                     <h2><?php echo ($lastPost['title']);?></h2>
-                    <p class="text-justify"><?php echo nl2br(substr(strip_tags($lastPost['content']),0,700));?> ...</p>
+                    <p class="text-justify"><?php echo nl2br(substr(strip_tags($lastPost['content']),0,700));?>...</p>
                 </div><br/>
                 
                 <!-- bouton lire la suite et lien vers page post-->

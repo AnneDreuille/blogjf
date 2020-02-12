@@ -10,7 +10,7 @@
         <!-- bouton Retour à la page d'accueil et lien vers la page listPosts-->
         <a class="btn btn-lg btn-info" href="index.php" role="button"><span class="glyphicon glyphicon-circle-arrow-left"></span> Retour à la page d'accueil</a><br/><br/>
 
-        <p>Bonne lecture !</p><br/>
+        <p>Bonne lecture&nbsp;!</p><br/>
 
         <!-- afficher tous les chapitres publiés avec pagination -->
         <div class="row">

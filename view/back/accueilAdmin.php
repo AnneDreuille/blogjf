@@ -13,13 +13,13 @@
         <!-- script pour compteur de visites -->
         <div class ="row">
             <div class ="col-md-5">
-                <h4 class="text-center text-primary well">Nombre de visites sur le blog =
+                <h4 class="text-center text-primary well">Nombre de visites sur le blog&nbsp;=
                 <a href="https://www.compteurdevisite.com" title="compteur de visite pour blog gratuit"><img src="https://counter1.wheredoyoucomefrom.ovh/private/compteurdevisite.php?c=7eqq7klxsu4w7b9bzhlfennsmjm8z98p" border="0" title="compteur de visite pour blog gratuit" alt="compteur de visite pour blog gratuit"></a>
                 </h4>
             </div>
         </div>
 
-    	<p>Que voulez-vous faire ?</p><br/>
+    	<p>Que voulez-vous faire&nbsp;?</p><br/>
         <!-- accès aux pages admin -->
 
         <div class ="row">

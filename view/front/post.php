@@ -14,7 +14,7 @@
         <div class ="row">
             <div class ="col-md-offset-1 col-md-10 col-md-offset-1">
 
-                <p>Bonne lecture de ce chapitre !</p><br/>
+                <p>Bonne lecture de ce chapitre&nbsp;!</p><br/>
 
                 <!-- afficher un chapitre entier -->
                 <div>
@@ -30,7 +30,7 @@
 
                 <div class="well">
                     <!-- formulaire pour laisser un commentaire -->
-                    <p>Vous voulez ajouter un commentaire ?</p>
+                    <p>Vous voulez ajouter un commentaire&nbsp;?</p>
                 
                     <form action="index.php?action=addComment&id=<?php echo $post['id'];?>" method="post">
                         <label for="pseudo">Pseudo</label><br/>

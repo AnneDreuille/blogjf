@@ -11,7 +11,7 @@
         <a class="btn btn-primary" href="index.php" role="button">Retour à la page Administration</a><br/><br/>
 
         <h2>Liste de tous les chapitres</h2><br/>
-        <p class="text-primary"><strong>Choisissez le chapitre à modifier ou à supprimer : </strong></p><br/>
+        <p class="text-primary"><strong>Choisissez le chapitre à modifier ou à supprimer&nbsp;: </strong></p><br/>
         
         <!-- afficher tous les chapitres publiés et non publiés dans un tableau-->
         <div class ="table-responsive-sm">

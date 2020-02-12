@@ -12,7 +12,7 @@
 
         <!-- afficher les commentaires avec une alerte -->
         <h2>Liste des commentaires avec alerte</h2><br/>
-        <p class="text-primary"><strong>Choisissez le commentaire à gérer : </strong></p>
+        <p class="text-primary"><strong>Choisissez le commentaire à gérer&nbsp;: </strong></p>
         <p>NB : Lorsque tous les commentaires sont gérés, cette page doit être vierge.</p><br/>
         
         <div class ="table-responsive-sm">

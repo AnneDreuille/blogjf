@@ -19,7 +19,7 @@
             <label for="content">Contenu</label><br/>
             <textarea id="content" name="content"></textarea><br/>
 
-            <label for="published">Voulez-vous publier le chapitre ?</label>
+            <label for="published">Voulez-vous publier le chapitre&nbsp;?</label>
             <input type="checkbox" id="published" name="published" checked value=1/><br/><br/>
        
             <input class="btn btn-success" type="submit"/><br/>
