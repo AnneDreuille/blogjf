@@ -14,7 +14,7 @@
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
         <!--lien font-awesome pour les icônes--> 
-        <script type="text/javascript" src="https://kit.fontawesome.com/97e1d87785.js"></script>
+        <script src="https://kit.fontawesome.com/97e1d87785.js"></script>
 
         <!--liens pour le favicon (les 2 1ers pour version en ligne, le 3ème pour version en local)--> 
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -22,9 +22,9 @@
         <link rel="icon" href="/blogjf/public/images/favicon.ico" type="image/ico" />
 
         <!--lien bootstrap-->
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
         <!--lien autre style-->
-        <link rel="stylesheet" type="text/css" href="/blogjf/public/style.css"/>
+        <link rel="stylesheet" href="/blogjf/public/style.css"/>
 
         <!--script schema.org-->
         <!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
@@ -59,9 +59,9 @@
         <script src="https://cdn.tiny.cloud/1/jy2e0nx3gog6j48dtlzexwjk3qxqq5noggxzme1zo8amqzcm/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
         <script>tinymce.init({ selector:'textarea'});</script> 
 
-        <!-- script pour jquery -->
+        <!-- script pour jquery & js-->
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
         <script src="/blogjf/public/main.js"></script>
 
