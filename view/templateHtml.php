@@ -14,7 +14,7 @@
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
         <!--lien font-awesome pour les icônes--> 
-        <script src="https://kit.fontawesome.com/97e1d87785.js"></script>
+        <script type="text/javascript" src="https://kit.fontawesome.com/97e1d87785.js"></script>
 
         <!--liens pour le favicon (les 2 1ers pour version en ligne, le 3ème pour version en local)--> 
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -22,9 +22,9 @@
         <link rel="icon" href="/blogjf/public/images/favicon.ico" type="image/ico" />
 
         <!--lien bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
         <!--lien autre style-->
-        <link rel="stylesheet" href="/blogjf/public/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/blogjf/public/style.css"/>
 
     </head>
         
