@@ -26,6 +26,30 @@
         <!--lien autre style-->
         <link rel="stylesheet" type="text/css" href="/blogjf/public/style.css"/>
 
+        <!--script schema.org-->
+        <!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
+        <script type="application/ld+json">
+        {
+          "@context" : "http://schema.org",
+          "@type" : "Article",
+          "name" : "Blog de Jean Forteroche",
+          "author" : {
+            "@type" : "Person",
+            "name" : "Jean Forteroche"
+          },
+          "datePublished" : "2019-05-12T14:22",
+          "image" : "https://blogjf.webagency2-0.com/public/images/couvertureAlaska.jpg",
+          "articleSection" : "Chapitre 1",
+          "headline": "Chapitre 1",
+          "articleBody" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur felis sed lorem suscipit, pharetra maximus lectus volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse eget libero non sem bibendum dictum eu a lorem. Maecenas consequat, libero in lobortis rhoncus, libero lorem ullamcorper ligula, eu iaculis nibh est eget ex. Nullam tellus risus, tempus eget condimentum at, semper et turpis...",
+          "url" : "https://blogjf.webagency2-0.com/index.php?action=post&id=1",
+          "publisher" : {
+            "@type" : "Organization",
+            "name" : "Jean Forteroche",
+            "logo":"https://blogjf.webagency2-0.com/favicon.ico"
+          }
+        }
+        </script>
     </head>
         
     <body>
