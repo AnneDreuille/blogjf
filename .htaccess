@@ -24,3 +24,4 @@ ExpiresDefault "access plus 2 days"
 </IfModule>
 ## EXPIRES CACHING ##
 
+ErrorDocument 404 /index.php
