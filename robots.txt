@@ -5,3 +5,5 @@ Disallow: /admin/
 # Groupe 2
 User-agent: *
 Allow: /
+
+Sitemap: https://blogjf.webagency2-0.com/sitemap.xml
