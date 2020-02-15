@@ -1,4 +1,4 @@
-<?php $title ='Blog de Jean Forteroche'; ?>
+<?php $title ="Blog de l'écrivain Jean Forteroche"; ?>
 <?php $metaDescription="Jean Forteroche publie son premier roman en ligne : vous pouvez lire les chapitres publiés et donnez vos commentaires."; ?>
 
 <?php ob_start(); ?> <!--définit le début de la variable $content dans templateHtml body-->
